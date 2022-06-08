@@ -1,0 +1,138 @@
+@media (max-width:1270px) {
+    .fixed_width {
+        width: 100%;
+    }
+    .blog_left_content {
+        padding-left: 15px;
+    }
+    .blog_right_motice {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:990px) {
+    .header_left {
+        width: 100%;
+        text-align: center;
+    }
+    .header_right {
+        width: 100%;
+    }
+    .header_right ul {
+        text-align: center;
+    }
+    .footer_left {
+        width: 50%;
+    }
+    .footer_right {
+        width: 50%;
+    }
+}
+
+@media (max-width:815px) {
+    .service_item h3 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:815px) {
+    .header_right ul li a {
+        padding: 0px 15px;
+        line-height: 40px;
+    }
+    .banner {
+        padding: 100px 0px;
+    }
+    .about p {
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 0px 30px;
+    }
+    .service_item {
+        float: none;
+        width: 60%;
+        margin-top: 20px !important;
+        margin: auto;
+    }
+}
+
+@media (max-width:768px) {
+    .blog_right_motice {
+        width: 30%;
+    }
+    .blog_left_content {
+        width: 65%;
+    }
+}
+
+@media (max-width:600px) {
+    .blog_left_content {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .blog_right_motice {
+        margin-top: 0px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+    .blog_section {
+        margin: 0;
+    }
+}
+
+@media (max-width:525px) {
+    .header_left img {
+        padding-bottom: 0;
+    }
+    .header_right ul li a {
+        padding: 0px 10px;
+        font-size: 16px;
+        border: none;
+    }
+    .header_right ul li a:first-child {
+        border-left: none;
+    }
+    .banner_caption h2 {
+        font-size: 25px;
+    }
+    .banner_caption h1 {
+        max-width: 380px;
+        font-size: 32px;
+    }
+    .banner {
+        padding: 75px 0px;
+    }
+    .footer_left {
+        width: 100%;
+    }
+    .footer_right {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:375px) {
+    .header {
+        padding-bottom: 5px;
+    }
+    .banner_caption h1 {
+        max-width: 200px;
+        font-size: 16px;
+    }
+    .banner_caption h2 {
+        font-size: 20px;
+    }
+    .header_left img {
+        padding-bottom: 5px;
+    }
+    .header_right {
+        width: 60%;
+        margin: auto;
+        float: none;
+    }
+    .header_right ul li a {
+        line-height: 30px;
+    }
+}
